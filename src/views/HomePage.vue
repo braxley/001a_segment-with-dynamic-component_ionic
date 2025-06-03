@@ -17,9 +17,9 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import { IonPage, IonContent, IonSegment, IonSegmentButton } from "@ionic/vue";
-import PageA from "@/views/UserPage/PageA.vue";
-import PageB from "@/views/UserPage/PageB.vue";
-import PageC from "@/views/UserPage/PageC.vue";
+import PageA from "@/views/PageA.vue";
+import PageB from "@/views/PageB.vue";
+import PageC from "@/views/PageC.vue";
 
 const activeSegment = ref<"page-a" | "page-b" | "page-c">("page-a");
 
